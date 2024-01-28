@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS  
+        # = id
+        . = class
+        : = pseudo-classes
+        ::=pseudo-elements
+        > =children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .especial::before{
+            content: '⇒';
+            background-color: rgb(255, 133, 133)
+            ;
+        }
+
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            color: darkgrey;
+            font-weight: 100;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/lorenzoballins" target="_blank" rel="external">Repositório lorenzoballins GitHub</a></li>
+         <li><a href="https://www.w3c.br" target="_blank" rel="external" class="especial">site da W3C no Brasil</a></li>
+        <li><a href="https://www.youtube.com/channel/UCUOzNOE9f6HFHf7Qna_ttVg" target="_blank" rel="external">Canal no youtube </a></li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classe hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div>p{
+            display: none;
+
+        }
+        div:hover{
+            color: brown;
+        }
+        p{
+            text-align: justify;
+        }
+
+        div:hover>p{
+            display: block;
+            color: white;
+            background-color: brown;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;font-size: 2.5em;">pseudo-classe:hover</h1>
+    <hr>
+    <p>passa o mouse no texto abaixo</p>
+    <div>
+        Feliz 2024 pra quem estiver vendo esse programa
+        <p>31/12/2023 é a data que eu fiz  este programa,espero que 2024 seja iluminado</p>
+    </div>
+    <a href="pseudoclasses.html" target="_self" rel="prev"> <br>Voltar para primeira página</a>
+    
+</body>
+</html>
