@@ -1,6 +1,7 @@
 # html-css
- Esses são alguns exercícios e dasfios que enfrentei ao decorrer do meu aprendizado com html e css, contendo mais de 30 pastas com conteúdos.
+ Esses são alguns exercícios e desafios que enfrentei ao decorrer do meu aprendizado com html e css, contendo mais de 30 pastas com conteúdos.
  Os principais deles são:
+ * Estrutura básica, tags, e elementos do HTML
  * Principais tags de formatação
  * Introdução ao HTML semântico
  * Usar mídias(vídios,imagens,áudios)
