@@ -39,6 +39,10 @@
 - [Exercício 20](exercicios/ex020/hover.html)
 - [Exercício 21](exercicios/ex021/caixa01.html)
 - [Exercício 22](exercicios/ex021/index.html)
+- [Exercício 23](exercicios/ex022/index.html)
+- [Exercício 24](exercicios/ex024/index.html)
+
+
 
 ## Desafios
 
