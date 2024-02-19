@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-image</title>
+    <link rel="shortcut icon" href="img/Chrisl21-Minecraft-Computer.512.png" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+           
+        }
+       .eixo_x{
+            background-image: url(https://www.stickersdevs.com.br/wp-content/uploads/2015/03/php-mascote-stickers-adesivo-800x800.png);
+            z-index: 1;
+            width: 100vw;
+            height: 100px; /* Defina uma altura fixa para o contêiner */
+            background-size: contain; /* Garante que a imagem seja totalmente visível dentro da div */
+            background-size: 150px;
+           position: relative;
+            background-repeat: repeat-x;
+
+        }
+.eixo_y{
+    background-image: url(https://www.stickersdevs.com.br/wp-content/uploads/2015/03/php-mascote-stickers-adesivo-800x800.png);
+            width: 100vw;
+            height: auto;
+            background-size: 150px;
+            background-repeat: repeat-y;
+            
+            
+ }
+        #horizontal{
+            display: flex;
+             justify-content: space-evenly;
+            margin: auto;
+            width: 100vw;
+            align-items: center;
+          position: absolute;
+          top: 70%;
+          margin-bottom: 0px;
+        }
+        #vertical{
+           width: 70vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+           align-items: center;
+           margin-top: 100px;
+          
+            justify-content: flex-end;
+          margin-bottom: 0px;
+        }
+        svg{
+            display: block;
+            margin: auto;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            width: 80px;
+            padding: 0px;
+        }
+        #php{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+           
+          
+        }
+        a{
+            color: black;
+            font-size: larger;
+            display: block;
+            margin: auto;
+            text-decoration: none;
+            
+            
+        }
+       
+    </style>
+</head>
+<body>
+   
+        <div class="eixo_x">   <p> <pre><code><section id="horizontal">
+          <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" ><path d="m9.001 10.978h-3.251c-.412 0-.75-.335-.75-.752 0-.188.071-.375.206-.518 1.685-1.775 4.692-4.945 6.069-6.396.189-.2.452-.312.725-.312.274 0 .536.112.725.312 1.377 1.451 4.385 4.621 6.068 6.396.136.143.207.33.207.518 0 .417-.337.752-.75.752h-3.251v9.02c0 .531-.47 1.002-1 1.002h-3.998c-.53 0-1-.471-1-1.002z" fill-rule="nonzero"/></svg>
+            <h1 >Usando o repeat no eixo x(horizontal)</h1>
+            .eixo_x{
+                 background-image: url(https://www.stickersdevs.com.br
+                 /wp-content/uploads/2015/03/php-mascote-stickers-adesivo-800x800.png);
+                width: 100vw;
+                 height: 60vh;
+                background-size: 150px;
+                background-repeat: repeat-x;
+            
+            }
+</code></pre></p>
+            
+        </section></div>
+       
+
+
+        <div class="eixo_y"><section id="vertical">
+            <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="margin: 0px;">
+                <path d="m10.978 14.999v3.251c0 .412-.335.75-.752.75-.188 0-.375-.071-.518-.206-1.775-1.685-4.945-4.692-6.396-6.069-.2-.189-.312-.452-.312-.725 0-.274.112-.536.312-.725 1.451-1.377 4.621-4.385 6.396-6.068.143-.136.33-.207.518-.207.417 0 .752.337.752.75v3.251h9.02c.531 0 1.002.47 1.002 1v3.998c0 .53-.471 1-1.002 1z" fill-rule="nonzero"/>
+            </svg>
+            <div>
+<h1>Usando repeat no eixo y(vertical)</h1>
+<pre><code>.eixo_y {
+    background-image: url(https://www.stickersdevs.com.br/
+    wp-content/uploads/2015/03/php-mascote-stickers-adesivo-800x800.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: 150px;
+    background-repeat: repeat-y;
+}</code></pre>
+            </div>
+           
+        </section >
+        <section id="php">
+            <a href="index003.html">
+                <h1 style="text-align: center;" id="link">Veja a outra formatação</h1>
+                <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m13.022 14.999v3.251c0 .412.335.75.752.75.188 0 .375-.071.518-.206 1.775-1.685 4.945-4.692 6.396-6.069.2-.189.312-.452.312-.725 0-.274-.112-.536-.312-.725-1.451-1.377-4.621-4.385-6.396-6.068-.143-.136-.33-.207-.518-.207-.417 0-.752.337-.752.75v3.251h-9.02c-.531 0-1.002.47-1.002 1v3.998c0 .53.471 1 1.002 1z" fill-rule="nonzero"/></svg>
+            </a>
+           
+        </section>
+    </div>
+    
+</body>
+</html>
