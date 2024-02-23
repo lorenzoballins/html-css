@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/pesquisa.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+
+    <title>Background Image</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+
+            font-family: Arial, Helvetica, sans-serif;
+
+
+
+            width: 100vw;
+            height: 100vh;
+            /*shorthand-background
+                color > image > position > repeat > [size] > attachements
+                */
+
+            background: rgb(255, 200, 161) url(https://steamuserimages-a.akamaihd.net/ugc/940586530515504757/CDDE77CB810474E1C07B945E40AE4713141AFD76/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)center center repeat fixed;
+            background-size: cover;
+        }
+
+        header {
+            width: 100vw;
+            background-color: white;
+            display: inline-flex;
+            border-bottom: 2px solid black;
+
+        }
+
+        header h1 {
+
+            display: inline-flex;
+
+        }
+
+        header>marquee>img {
+            width: 50px;
+
+            display: inline-flex;
+            align-self: flex-end;
+
+
+
+        }
+
+
+        .main {
+
+            border: 2px solid black;
+            border-top: none;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+            color: white;
+            padding: 30px;
+            margin: auto;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            text-align: center;
+            background-image: linear-gradient(to right, rgb(255, 193, 79), rgb(255, 63, 63));
+
+            max-width: 700px;
+        }
+
+        section>h1 {
+            font-size: 30px;
+            color: black;
+            margin-bottom: 10px;
+        }
+        .gallery{
+            
+            max-width: 700px;
+         display: grid;
+        
+         grid-template-columns: 1fr 1fr 1fr;
+         margin: auto;
+         
+         margin-top: 60px;
+         margin-bottom: 50px;
+         
+        }
+        .gallery>a>img{
+            width: 233px;
+            max-height: 140px;
+            min-height: 140px;
+            
+        }
+        .return{
+            text-align: center;
+
+        }
+        .return img{
+            width: 80px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <marquee behavior="" direction="">
+            <h1>Seja Bem-vindo</h1> <img
+                src="img/xicara-de-cafe-logo-coffee-shop-vector-icon-design-v9_304962-original.webp" alt="logo-de-café">
+        </marquee>
+
+
+    </header>
+    <main>
+        <article class="main">
+            <section>
+                <h1>Os principais filósofos da história</h1>
+                <p>Abaixo segue uma galeria dos principais 12 filósofos que trabalharam com matemática até
+                    metafísica,teologia,psicálise,poemas e estudos da palavra.O que em geral define esse estudo que é a
+                    filosofia- o estudo da realidade e existência,valores,moral,ética,linguagens e a mente humana de uma
+                    forma racional.Através da filosofia é possível abrir a mente para novos conceitos ou até novas
+                    mudanças. Podemos conhecer os grandes filósofos que já existiram no mundo, o que eles pensavam e
+                    como pensavam.
+                </p>
+            </section>
+        </article>
+
+
+
+       
+
+        <div class="gallery">
+          
+                <a href="img/socrates.png" data-lightbox="gallery" data-title="Foto de Sócrates">
+                    <img src="img/socrates.png" alt="imagem de Sócrates">
+                </a>
+                <a href="img/agostinho.jpg" data-lightbox="gallery" data-title="Foto de Santo Agostinho">
+                    <img src="img/agostinho.jpg" alt="imagem de Santo Agostinho">
+                </a>
+                <a href="img/descartes.jpg" data-lightbox="gallery" data-title="Foto de René Descartes">
+                    <img src="img/descartes.jpg" alt="imagem de Descartes">
+                </a>
+                <a href="img/freud.webp" data-lightbox="gallery" data-title="Foto de Freud">
+                    <img src="img/freud.webp" alt="imagem de Freud">
+                </a>
+                <a href="img/marx.jpg" data-lightbox="gallery" data-title="Foto de Karl Marx">
+                    <img src="img/marx.jpg" alt="imagem de Karl Marx">
+                </a>
+                <a href="img/nietzsche.webp" data-lightbox="gallery" data-title="Foto de Nietzsche">
+                    <img src="img/nietzsche.webp" alt="imagem de Nietzsche">
+                </a>
+                <a href="img/platao.jpg" data-lightbox="gallery" data-title="Foto de Platão">
+                    <img src="img/platao.jpg" alt="imagem de Platão">
+                </a>
+                <a href="img/Tales.webp" data-lightbox="gallery" data-title="Foto de Tales de Mileto">
+                    <img src="img/Tales.webp" alt="imagem de Tales de Mileto">
+                </a>
+                <a href="img/Tomas.jpg" data-lightbox="gallery" data-title="Foto de São Tomás de Aquino">
+                    <img src="img/Tomas.jpg" alt="imagem de São Tomás de Aquino">
+                </a>
+                <a href="img/wittgenstein.jpg" data-lightbox="gallery" data-title="Foto de Wittgenstein">
+                    <img src="img/wittgenstein.jpg" alt="imagem de Wittgenstein">
+                </a>
+                <a href="img/aristoteles.webp" data-lightbox="gallery" data-title="Foto de Aristóteles">
+                    <img src="img/aristoteles.webp" alt="imagem de Aristóteles">
+                </a>
+                <a href="img/kant.jpeg" data-lightbox="gallery" data-title="Foto de Immanuel Kant">
+                    <img src="img/kant.jpeg" alt="imagem de  Immanuel Kant">
+                </a>
+            
+        </div>
+
+        <section class="return"> <a href="index02.html"><img src="img/seta-avancar.png" alt="seta pa voltar para trás"></a></section>
+   
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+                // Inicialize o Lightbox2
+                lightbox.option({
+                    'resizeDuration': 500,
+                    'wrapAround': true
+                });
+            });
+    </script>
+
+</body>
+
+</html>
