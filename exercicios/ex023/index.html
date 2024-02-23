@@ -78,22 +78,23 @@
             color: black;
             margin-bottom: 10px;
         }
-        .gallery{
-            
-            max-width: 700px;
+        .items{
+            position: relative;
+            max-width: 900px;
          display: grid;
-        
-         grid-template-columns: 1fr 1fr 1fr;
          margin: auto;
+         grid-template-columns: 1fr 1fr 1fr;
+        
          
          margin-top: 60px;
          margin-bottom: 50px;
          
         }
-        .gallery>a>img{
-            width: 233px;
-            max-height: 140px;
-            min-height: 140px;
+        .gallery>.items>a>img{
+           
+            width: 300px;
+           max-height: 200px;
+           min-height: 200px
             
         }
         .return{
@@ -103,7 +104,20 @@
         .return img{
             width: 80px;
         }
-
+        @media(max-width:900px){
+            .items{
+                display: grid;
+                max-width: 600px;
+               grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media(max-width:600px){
+            .items{
+                display: grid;
+                max-width: 300px;
+               grid-template-columns: 1fr ;
+            }
+        }
     </style>
 </head>
 
@@ -137,43 +151,44 @@
 
         <div class="gallery">
           
-                <a href="img/socrates.png" data-lightbox="gallery" data-title="Foto de Sócrates">
-                    <img src="img/socrates.png" alt="imagem de Sócrates">
-                </a>
-                <a href="img/agostinho.jpg" data-lightbox="gallery" data-title="Foto de Santo Agostinho">
-                    <img src="img/agostinho.jpg" alt="imagem de Santo Agostinho">
-                </a>
-                <a href="img/descartes.jpg" data-lightbox="gallery" data-title="Foto de René Descartes">
-                    <img src="img/descartes.jpg" alt="imagem de Descartes">
-                </a>
-                <a href="img/freud.webp" data-lightbox="gallery" data-title="Foto de Freud">
-                    <img src="img/freud.webp" alt="imagem de Freud">
-                </a>
-                <a href="img/marx.jpg" data-lightbox="gallery" data-title="Foto de Karl Marx">
-                    <img src="img/marx.jpg" alt="imagem de Karl Marx">
-                </a>
-                <a href="img/nietzsche.webp" data-lightbox="gallery" data-title="Foto de Nietzsche">
-                    <img src="img/nietzsche.webp" alt="imagem de Nietzsche">
-                </a>
-                <a href="img/platao.jpg" data-lightbox="gallery" data-title="Foto de Platão">
-                    <img src="img/platao.jpg" alt="imagem de Platão">
-                </a>
-                <a href="img/Tales.webp" data-lightbox="gallery" data-title="Foto de Tales de Mileto">
-                    <img src="img/Tales.webp" alt="imagem de Tales de Mileto">
-                </a>
-                <a href="img/Tomas.jpg" data-lightbox="gallery" data-title="Foto de São Tomás de Aquino">
-                    <img src="img/Tomas.jpg" alt="imagem de São Tomás de Aquino">
-                </a>
-                <a href="img/wittgenstein.jpg" data-lightbox="gallery" data-title="Foto de Wittgenstein">
-                    <img src="img/wittgenstein.jpg" alt="imagem de Wittgenstein">
-                </a>
-                <a href="img/aristoteles.webp" data-lightbox="gallery" data-title="Foto de Aristóteles">
-                    <img src="img/aristoteles.webp" alt="imagem de Aristóteles">
-                </a>
-                <a href="img/kant.jpeg" data-lightbox="gallery" data-title="Foto de Immanuel Kant">
-                    <img src="img/kant.jpeg" alt="imagem de  Immanuel Kant">
-                </a>
-            
+                <div class="items">
+                    <a href="img/socrates.png" data-lightbox="gallery" data-title="Foto de Sócrates">
+                        <img src="img/socrates.png" alt="imagem de Sócrates">
+                    </a>
+                    <a href="img/agostinho.jpg" data-lightbox="gallery" data-title="Foto de Santo Agostinho">
+                        <img src="img/agostinho.jpg" alt="imagem de Santo Agostinho">
+                    </a>
+                    <a href="img/descartes.jpg" data-lightbox="gallery" data-title="Foto de René Descartes">
+                        <img src="img/descartes.jpg" alt="imagem de Descartes">
+                    </a>
+                    <a href="img/freud.webp" data-lightbox="gallery" data-title="Foto de Freud">
+                        <img src="img/freud.webp" alt="imagem de Freud">
+                    </a>
+                    <a href="img/marx.jpg" data-lightbox="gallery" data-title="Foto de Karl Marx">
+                        <img src="img/marx.jpg" alt="imagem de Karl Marx">
+                    </a>
+                    <a href="img/nietzsche.webp" data-lightbox="gallery" data-title="Foto de Nietzsche">
+                        <img src="img/nietzsche.webp" alt="imagem de Nietzsche">
+                    </a>
+                    <a href="img/platao.jpg" data-lightbox="gallery" data-title="Foto de Platão">
+                        <img src="img/platao.jpg" alt="imagem de Platão">
+                    </a>
+                    <a href="img/Tales.webp" data-lightbox="gallery" data-title="Foto de Tales de Mileto">
+                        <img src="img/Tales.webp" alt="imagem de Tales de Mileto">
+                    </a>
+                    <a href="img/Tomas.jpg" data-lightbox="gallery" data-title="Foto de São Tomás de Aquino">
+                        <img src="img/Tomas.jpg" alt="imagem de São Tomás de Aquino">
+                    </a>
+                    <a href="img/wittgenstein.jpg" data-lightbox="gallery" data-title="Foto de Wittgenstein">
+                        <img src="img/wittgenstein.jpg" alt="imagem de Wittgenstein">
+                    </a>
+                    <a href="img/aristoteles.webp" data-lightbox="gallery" data-title="Foto de Aristóteles">
+                        <img src="img/aristoteles.webp" alt="imagem de Aristóteles">
+                    </a>
+                    <a href="img/kant.jpeg" data-lightbox="gallery" data-title="Foto de Immanuel Kant">
+                        <img src="img/kant.jpeg" alt="imagem de  Immanuel Kant">
+                    </a>
+                </div>
         </div>
 
         <section class="return"> <a href="index02.html"><img src="img/seta-avancar.png" alt="seta pa voltar para trás"></a></section>
