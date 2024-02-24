@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex023/img/pesquisa.png" type="image/x-icon">
+    <title>Tables</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            position: relative;
+            border-radius: 10px;
+            border-collapse: collapse;
+            width: 600px;
+        }
+        caption{
+            background-color: rgb(172, 172, 172);
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        #pais{
+            width: 150px;
+        }
+        td, th{
+           
+           
+            padding: 8px;
+            border: 1px solid black;
+        }
+        td{
+            padding: 3.5px;
+            font-size: 20px;
+        }
+        img{
+            margin-right: 5px;
+            width: 20px;
+        }
+        thead{
+            color: white;
+            background-color: rgb(88, 88, 88);
+        }
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(88, 88, 88);
+        }
+        tbody>tr:nth-child(2n){
+            background-color: rgb(189, 189, 189);
+        }
+        a>img{
+            display: block;
+            text-align: center;
+            margin: auto;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando tabelas grandes</h1>
+    <!--Anatomia para tabelas grandes
+    Table
+        thead
+            tr,td,th
+        tbody
+            tr,td,th
+        tfoot
+            tr,td,th
+    -->
+    <table>
+        <caption>Os 10 países com maior IDH</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th id="pais" scope="col">País</th>
+                <th scope="col">Índice de desenvolvimento humano(IDH)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><img src="img/suica.png" alt="bandeira da suiça">Suiça</td>
+                <td>0,962</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                    <td><img src="img/noruega.png" alt="bandeira da noruega">Noruega</td>
+                    <td>0,961</td>
+            </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="img/islandia.png" alt="bandeira da islândia">Islândia</td>
+                    <td>0,959</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img src="img/hong-kong.png" alt="bandeira da Hong hong-kong">Hong Kong</td>
+                    <td>0,952</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><img src="img/australia.png" alt="bandeira da Austrália">Austrália</td>
+                    <td>0,951</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><img src="img/dinamarca.png" alt="bandeira da Dinamarca">Dinamarca</td>
+                    <td>0,948</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><img src="img/suecia.png" alt="bandeira da Suécia">Suécia</td>
+                    <td>0,947</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><img src="img/irlanda.png" alt="bandeira da Irlanda">Irlanda</td>
+                    <td> 0,945</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><img src="img/alemanha.png" alt="bandeira da Alemanha">Alemanha</td>
+                    <td>
+                        0,942
+                    </td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><img src="img/holanda.png" alt="bandeira da holanda">Holanda</td>
+                    <td>0,941</td>
+                </tr>
+               
+                
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Média total dos Países</th>
+                <th scope="row">0,950</th>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="index03.html"><img src="../ex023/img/seta-avancar.png" alt="seta para avançar de página"></a>
+</body>
+</html>

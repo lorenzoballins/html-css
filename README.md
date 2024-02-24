@@ -43,6 +43,8 @@
 - [Exercício 24](exercicios/ex023/index.html)
 - [Exercício 25](exercicios/ex024/index.html)
 - [Exercício 26](exercicios/ex025/index.html)
+- [Exercício 27](exercicios/ex026/index.html)
+
 
 
 
@@ -59,3 +61,4 @@
 - [Desafio 8](Desafios/desafio008/index.html)
 - [Desafio 9](Desafios/desafio009/index.html)
 - [Desafio 10](Desafios/desafio010/index.html)
+- [Desafio 11](Desafios/desafio011/index.html)

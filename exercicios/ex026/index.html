@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex023/img/pesquisa.png" type="image/x-icon">
+    <title>Tabela</title>
+    <style>
+        table{
+            
+            
+            
+            width: 400px;
+             height: 200px;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center;
+            vertical-align: middle;
+            padding: 8px;
+            border: 1px solid black;
+        }
+        .line{
+            width: 400px;
+            background-color: grey;
+        }
+        th{
+            padding: 8px;
+        }
+        img{
+            display: block;
+            width: 100px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+        hierarquia de tabelas(simples)
+        table = tabela
+            table row = linha da tabela
+                table header = cabeçalho de tabela
+                table data = dados de tabela
+    -->
+    <table>
+        <tr class="line" ><!--Primeira linha(título)-->
+            <th colspan="3">Colunas e linhas de uma tabela</th>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+    <a href="index02.html"><img src="../ex023/img/seta-avancar.png" alt="seta para avançar página"></a>
+</body>
+</html>

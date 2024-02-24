@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Usando mesclagem de células e hierarquia de tabelas</h1>
+    <table>
+        <thead>
+            <th></th>
+            <th colspan="1">A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+                  <tr>
+                    <th>5</th>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+                </tr>
+        </tbody>
+    </table>
+
+    <table class="tabela">
+        <thead>
+            <th></th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th>E</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="number">1</td>
+                <td colspan="4">A</td>
+                <td rowspan="3">B</td>
+            </tr>
+            <tr>
+                <td class="number">2</td>
+                <td rowspan="3">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td class="number">3</td>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td class="number">4</td>
+                <td colspan="4">J</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

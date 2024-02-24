@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   background-image: url(https://images3.alphacoders.com/133/1332803.png);
+   background-size: cover;
+   background-position: center center;
+}
+table{
+   margin: auto;
+    width: 400px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+td{
+    background-color: white;
+    vertical-align: center;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+}
+th{
+    background-color: black;
+    color: white;
+}
+.tabela{
+    margin-top: 40px;
+    height: 250px;
+}
+.number{
+    width: 10px;
+    background-color: black;
+    color: white;
+}
