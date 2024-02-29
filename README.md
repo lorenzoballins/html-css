@@ -62,3 +62,5 @@
 - [Desafio 9](Desafios/desafio009/index.html)
 - [Desafio 10](Desafios/desafio010/index.html)
 - [Desafio 11](Desafios/desafio011/index.html)
+- [Desafio 11](Desafios/desafio012/index.html)
+- [Desafio 12](Desafios/desafio013/index.html)
