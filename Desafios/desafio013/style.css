@@ -1,0 +1,151 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mytable{
+    overflow: auto;
+}
+table{
+    
+    max-width: 1000px;
+    margin: auto;
+}
+td>.matches{
+    vertical-align: middle;
+    width: 120px;
+}
+.matches>img{
+    
+    width: 16px;
+
+}
+img{
+    width: 25px;
+}
+td,th{
+   
+    padding-bottom: 20px;
+    vertical-align: bottom;
+   
+
+}
+td{
+    
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.jump{
+    width: 20px;
+}
+
+th{ 
+    color: #70757A;
+    font-size: 14px;
+ min-width: 35px;
+}
+ .club{
+    min-width: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+ }
+.more{
+    margin-left: -3px;
+}
+.long{
+    text-align: left;
+    width: 70%;
+}
+.azul{
+    min-width: 2px;
+    background-color: #4285F4;
+}
+.laranja{
+    min-width: 2px;
+    background-color:#FA7B17;
+}
+.verde{
+    min-width: 2px;
+    background-color: #34A853;
+}
+.vermelho{
+    min-width: 2px;
+    background-color: #EA4335;
+}
+.white{
+    min-width: 2px;
+    color: white;
+}
+.pts{
+    color: black;
+    font-weight: 550;
+}
+span{
+  
+   margin-right: 10px;
+   margin-left: 3px;
+}
+.align{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 40px;
+}
+div{
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+tfoot>tr>td{
+   
+  text-align: center;
+  vertical-align: middle;
+}
+tfoot>tr>td>img{
+    margin-right: 5px;
+    width: 17px;
+}
+.left{
+    padding-left: 40px;
+    text-align: left;
+}
+tfoot{
+    height: auto;
+    padding-top: 40px;
+}
+tfoot>tr>td{
+    margin-left: 20px;
+}
+
+@media(max-width:500px){
+        .long{
+            width: 70%;
+        }
+        th{
+            min-width: 25px;
+        }
+        .align,.left{
+            margin-left: 0px;
+        }
+      
+}
+
+@media(max-width:380px){
+  
+  
+    td{
+        font-size: 13px;
+    }
+    th{
+        min-width: 22px;
+    }
+}

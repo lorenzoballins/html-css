@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../ex023/img/pesquisa.png" type="image/x-icon">
+  
     <title>Tables</title>
 </head>
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
     body{
+        text-align: center;
+        width: 100vw;
         font-family: Arial, Helvetica, sans-serif;
 
     }
     table{
+        
+        margin: auto;
+        margin-top: 30px;
+        min-width: 350px;
+      
         border-collapse:collapse;
-        width: 350px;
+       
 
     }
     td{
@@ -22,6 +34,31 @@
         border: 1px solid black;
         padding: 8px;
     }
+    th{
+        
+        border: 1px solid black;
+    }
+    .table-container{
+      
+        border-collapse:collapse;
+      
+        width: 50%;
+        margin-left: auto; /* Centraliza a tabela horizontalmente */
+            margin-right: auto;
+        margin-top: 100px;
+    }
+    caption{
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 20px;
+        background-color: rgb(255, 255, 145);
+    }
+    a>img{
+            display: block;
+            text-align: center;
+            margin: auto;
+            width: 100px;
+        }
 </style>
 <body>
     <h1>Mesclagem de células</h1>
@@ -49,6 +86,62 @@
         </tr>
 
     </table>
+
+    <table class="table-container">
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+           
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup" >Mulheres</th>
+                <td>Ana maria dos Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+                
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+           <tr>
+            <th rowspan="3" scope="rowgroup">Homens</th>
+            <td>Bruno Mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
+           </tr>
+           <tr>
+            <td>Daniel Lourenço</td>
+            <td>Wall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+           </tr>
+           <tr>
+            <td>Fabiano Mota</td>
+            <td>Star Wars 5</td>
+            <td>Taxi Driver</td>
+            <td>Toy Store</td>
+           </tr>
+        </tbody>
+    </table>
+
+    <a href="index04.html"><img src="../ex023/img/seta-avancar.png" alt="seta avançar"></a>
+
 </body>
 
 </html>
