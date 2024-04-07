@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Iframe</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 50px;
+        }
+        #logo-curso {
+            width: 100px;
+        }
+
+        #logo-github {
+            width: 100px;
+        }
+        iframe{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .tabela-br>p>iframe{
+            margin-top: 50px;
+            width: 500px;
+            height: 300px;
+
+        }
+        p{ 
+        font:300 2em arial,helvetica,sans-serif ;
+        }
+        a{
+            color: rgb(64, 64, 248);
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Testando uso de iframe</h1>
+    <p>Site do CursoemVideo <iframe src="https://www.cursoemvideo.com" frameborder="1" height="400px" width="900px" scrolling="auto" name="cursoemvideo">
+            <a href="https://www.cursoemvideo.com" target="_blank" rel="external"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmdGIXtdurwy1DOhrinLpUuoFvi5LjxX6Lp8VwZ9uvFA&s"
+                    alt="logo curso em video" id="logo-curso"></a>
+        </iframe>
+    </p>
+
+  
+    <section class="tabela-br">
+        <p> espero que goste <iframe src="https://lorenzoballins.github.io/Tabela-do-brasileirao/" frameborder="1">
+                <a href="https://lorenzoballins.github.io/Tabela-do-brasileirao/" target="_blank" rel="external" scrolling="auto" name="table-br"><img
+                        src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="logo-github" id="logo-github"></a>
+            </iframe>Desse site que eu fiz</p>
+    </section>
+    <a href="iframe001.html">Acessar segunda página</a>
+</body>
+
+
+
+</html>
