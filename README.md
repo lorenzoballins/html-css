@@ -44,6 +44,7 @@
 - [Exercício 25](exercicios/ex024/index.html)
 - [Exercício 26](exercicios/ex025/index.html)
 - [Exercício 27](exercicios/ex026/index.html)
+- [Exercício 28](exercicios/ex027/index.html)
 
 
 
